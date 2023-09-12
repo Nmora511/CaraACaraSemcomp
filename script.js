@@ -58,7 +58,8 @@ function createImagesInGrid() {
     }
     const nomes = [
         'Isa', 'Erick', 'Nat', 'Ian', 'Neto', 'Maya', 'Fe',
-        'Octavio', 'Alex', 'Fefa', 'Lari', 'Lorenzo', 'Vetor'
+        'Octavio', 'Alex', 'Fefa', 'Lari', 'Lorenzo', 'Vetor',
+        'Lipe', 'Caio', 'Miranda', 'Henrique', 'Jayson'
     ];
 
     let i=1;
