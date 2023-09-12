@@ -56,6 +56,18 @@ function createImagesInGrid() {
         back.appendChild(img);
         back.appendChild(name);
     }
+    const nomes = [
+        'Isa', 'Erick', 'Nat', 'Ian', 'Neto', 'Maya', 'Fe',
+        'Octavio', 'Alex', 'Fefa'
+    ];
+
+    let i=1;
+    nomes.forEach(text => {
+        const textp = document.getElementById(`nome${i}`);
+        textp.textContent = text;
+        i++;
+    });
+
 }
 
 function sortearImagem() {
